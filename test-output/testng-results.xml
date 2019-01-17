@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14048" started-at="2019-01-13T14:45:00Z" finished-at="2019-01-13T14:45:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14048" started-at="2019-01-13T14:45:00Z" finished-at="2019-01-13T14:45:14Z">
+      <class name="com.Marketlancing.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@6a41eaa2]" name="setup" is-config="true" duration-ms="10911" started-at="2019-01-13T14:45:00Z" finished-at="2019-01-13T14:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@6a41eaa2]" name="loginTest" duration-ms="959" started-at="2019-01-13T14:45:11Z" finished-at="2019-01-13T14:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="2125" started-at="2019-01-13T14:45:12Z" finished-at="2019-01-13T14:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Marketlancing.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
