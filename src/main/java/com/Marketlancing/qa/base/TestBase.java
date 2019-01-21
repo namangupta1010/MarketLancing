@@ -30,7 +30,7 @@ public void Initialization()
 	String broswername =prop.getProperty("browser");
 	if(broswername.equals("chrome"))
 	{
-	System.setProperty("webdriver.chrome.driver","D:\\Naman\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","F:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 	driver = new ChromeDriver();
 	}
 	
