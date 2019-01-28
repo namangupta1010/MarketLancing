@@ -19,7 +19,7 @@ public void Initialization()
 {
 	 try{
 		  prop = new Properties();
-			FileInputStream ip =new FileInputStream("C:\\Users\\HP\\git\\MarketLancing\\src\\main\\java\\com\\Marketlancing\\qa\\config\\config.properties");
+			FileInputStream ip =new FileInputStream("C:\\Users\\webner\\git\\MarketLancing\\src\\main\\java\\com\\Marketlancing\\qa\\config\\config.properties");
 			prop.load(ip);
 		 }
 		 catch(IOException e)
@@ -30,7 +30,7 @@ public void Initialization()
 	String broswername =prop.getProperty("browser");
 	if(broswername.equals("chrome"))
 	{
-	System.setProperty("webdriver.chrome.driver","F:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","D:\\Naman\\Selenium\\chromedriver_win32\\chromedriver.exe");
 	driver = new ChromeDriver();
 	}
 	
