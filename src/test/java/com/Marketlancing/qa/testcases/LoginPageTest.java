@@ -1,5 +1,6 @@
 package com.Marketlancing.qa.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,12 +10,16 @@ import com.Marketlanicng.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase {
 	
+	Logger log =Logger.getLogger(LoginPageTest.class);
+	
 	LoginPage obj;
 	@BeforeMethod
 	public void setup()
 	{
 		Initialization();
 		 obj = new LoginPage();
+		 log.info("browserLaunch");
+		 
 	}
 	
 	
@@ -22,6 +27,10 @@ public class LoginPageTest extends TestBase {
 	public void loginTest() 
 	{
 		obj.loginValidation(prop.getProperty("username"), prop.getProperty("password"));
+		//Logger log = Logger.getLogger(LoginPageTest.class);
+		//Logger logger = Logger.getLogger("LoginPageTest");
+		log.info("testCase");
+		
 	}
 	
 	
