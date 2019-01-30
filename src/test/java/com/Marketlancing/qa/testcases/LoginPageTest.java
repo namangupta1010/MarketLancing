@@ -24,7 +24,7 @@ public class LoginPageTest extends TestBase {
 	
 	
 	@Test
-	public void loginTest() 
+	public void loginTest() throws InterruptedException 
 	{
 		obj.loginValidation(prop.getProperty("username"), prop.getProperty("password"));
 		//Logger log = Logger.getLogger(LoginPageTest.class);
