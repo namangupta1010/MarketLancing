@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<
+
+<suite name ="marketlancing project for test automation">
+
+
 
 <listeners>
-<listner class-name= "com.qa.extentreportListener.ExtentReporterNG"></listener>
-<listeners>
+<listener class-name= "com.qa.extentreportListener.ExtentReporterNG"/>
+</listeners>
+
+<test name="marketlancing Test">
+
+
+<classes>
+ 
+ <class name="com.Marketlancing.qa.testcases.LoginPageTest"/>
+ 
+ </classes>
+ </test>
+</suite>

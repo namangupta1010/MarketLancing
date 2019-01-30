@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13274" started-at="2019-01-29T09:29:00Z" finished-at="2019-01-29T09:29:13Z">
+  <suite name="marketlancing project for test automation" duration-ms="11182" started-at="2019-01-30T10:43:12Z" finished-at="2019-01-30T10:43:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13274" started-at="2019-01-29T09:29:00Z" finished-at="2019-01-29T09:29:13Z">
+    <test name="marketlancing Test" duration-ms="11182" started-at="2019-01-30T10:43:12Z" finished-at="2019-01-30T10:43:23Z">
       <class name="com.Marketlancing.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@63753b6d]" name="setup" is-config="true" duration-ms="12616" started-at="2019-01-29T09:29:00Z" finished-at="2019-01-29T09:29:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@57536d79]" name="setup" is-config="true" duration-ms="10437" started-at="2019-01-30T10:43:12Z" finished-at="2019-01-30T10:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@63753b6d]" name="loginTest" duration-ms="565" started-at="2019-01-29T09:29:13Z" finished-at="2019-01-29T09:29:13Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@57536d79]" name="loginTest" duration-ms="536" started-at="2019-01-30T10:43:22Z" finished-at="2019-01-30T10:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@63753b6d]" name="tearDown" is-config="true" duration-ms="71" started-at="2019-01-29T09:29:13Z" finished-at="2019-01-29T09:29:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@57536d79]" name="tearDown" is-config="true" duration-ms="189" started-at="2019-01-30T10:43:23Z" finished-at="2019-01-30T10:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Marketlancing.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- marketlancing Test -->
+  </suite> <!-- marketlancing project for test automation -->
 </testng-results>
