@@ -52,10 +52,16 @@ public class TestBase
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
-	public void FailedTestcasesSS() throws IOException
+	public void FailedTestcasesSS(String TestMethodName) 
 	{
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("C:\\Users\\webner\\git\\MarketLancing\\src\\main\\resources\\FailedScreenshots"));
+		try {
+			FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\src\\main\\resources\\FailedScreenshots\\"
+					+ TestMethodName + ".jpg"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 
