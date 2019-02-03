@@ -45,7 +45,7 @@ public class LoginPage extends TestBase {
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.titleContains("dashboard | Market Lancing"));
 
-		Assert.assertEquals("dashboard | Market Lancing2", driver.getTitle());
+		Assert.assertEquals("dashboard | Market Lancing", driver.getTitle());
 		
 	}
 }

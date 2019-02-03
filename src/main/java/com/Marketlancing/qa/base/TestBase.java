@@ -25,7 +25,7 @@ public class TestBase
 	{
 		try{
 			prop = new Properties();
-			FileInputStream ip =new FileInputStream("C:\\Users\\webner\\git\\MarketLancing\\src\\main\\java\\com\\Marketlancing\\qa\\config\\config.properties");
+			FileInputStream ip =new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\Marketlancing\\qa\\config\\config.properties");
 			prop.load(ip);
 		}
 		catch(IOException e)
@@ -36,7 +36,7 @@ public class TestBase
 		String broswername =prop.getProperty("browser");
 		if(broswername.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","D:\\Naman\\Selenium\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 
@@ -47,9 +47,10 @@ public class TestBase
 		}
 
 		driver.get(prop.getProperty("Url"));
-		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 	}
 
 	public void FailedTestcasesSS(String TestMethodName) 

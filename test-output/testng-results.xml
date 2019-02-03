@@ -2,29 +2,35 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16674" started-at="2019-01-31T08:31:11Z" finished-at="2019-01-31T08:31:28Z">
+  <suite name="Default suite" duration-ms="41879" started-at="2019-02-03T06:42:48Z" finished-at="2019-02-03T06:43:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16674" started-at="2019-01-31T08:31:11Z" finished-at="2019-01-31T08:31:28Z">
+    <test name="Default test" duration-ms="41879" started-at="2019-02-03T06:42:48Z" finished-at="2019-02-03T06:43:30Z">
       <class name="com.Marketlancing.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@731a74c]" name="setup" is-config="true" duration-ms="9936" started-at="2019-01-31T08:31:11Z" finished-at="2019-01-31T08:31:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@65e2dbf3]" name="setup" is-config="true" duration-ms="17869" started-at="2019-02-03T06:42:48Z" finished-at="2019-02-03T06:43:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@731a74c]" name="loginTest" duration-ms="3998" started-at="2019-01-31T08:31:21Z" finished-at="2019-01-31T08:31:25Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@65e2dbf3]" name="loginTest" duration-ms="21255" started-at="2019-02-03T06:43:06Z" finished-at="2019-02-03T06:43:27Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[expected [dashboard | Market Lancing] but found [dashboard | Market Lancing2]]]>
+              <![CDATA[Expected condition failed: waiting for title to contain "dashboard | Market Lancing". Current title: "test_1 - MarketLancing" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME', ip: '192.168.43.44', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\HP\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 700ee65d589c0d633952d4ad0a71dabe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [dashboard | Market Lancing] but found [dashboard | Market Lancing2]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.Marketlanicng.qa.pages.LoginPage.loginValidation(LoginPage.java:48)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "dashboard | Market Lancing". Current title: "test_1 - MarketLancing" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME', ip: '192.168.43.44', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\HP\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 700ee65d589c0d633952d4ad0a71dabe
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.Marketlanicng.qa.pages.LoginPage.loginValidation(LoginPage.java:46)
 at com.Marketlancing.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -53,11 +59,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@731a74c]" name="tearDown" is-config="true" duration-ms="2376" started-at="2019-01-31T08:31:25Z" finished-at="2019-01-31T08:31:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Marketlancing.qa.testcases.LoginPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="2316" started-at="2019-02-03T06:43:28Z" finished-at="2019-02-03T06:43:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
