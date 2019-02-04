@@ -3,9 +3,7 @@ package com.Marketlanicng.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 
 import com.Marketlancing.qa.base.TestBase;
 
@@ -27,25 +25,24 @@ public class LoginPage extends TestBase {
 	{
 		//Page Factory is a way to initialize the web elements you want to 
 		//interact with within the page object when you create an instance of it.
-		//this all the elements with initialised with driver
+		//this all the elements with initialized with driver
 		
 		PageFactory.initElements(driver, this);
 		
 	}
 	
-	public void loginValidation(String un,String pwd) throws InterruptedException
+	public void loginML(String un,String pwd) throws InterruptedException
 	{
 		Login_click.click();
+		Thread.sleep(1000);
 		login_username.sendKeys(un);
 		
 		login_password.sendKeys(pwd);
 		login_button.click();
 		//Thread.sleep(3000);
 		//String actualTitle =driver.getTitle();
-		WebDriverWait wait = new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.titleContains("dashboard | Market Lancing"));
-
-		Assert.assertEquals("dashboard | Market Lancing", driver.getTitle());
+		
+		//return new HomePage();
 		
 	}
 }

@@ -20,7 +20,7 @@ public class CustomListener extends TestBase implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println("Failed Test");
-		System.out.println(result);
+		//System.out.println(result);
 		FailedTestcasesSS(result.getMethod().getMethodName());
 	}
 
