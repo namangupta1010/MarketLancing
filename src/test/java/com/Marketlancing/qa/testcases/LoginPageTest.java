@@ -18,12 +18,12 @@ public class LoginPageTest extends TestBase {
 	
 	Logger log =Logger.getLogger(LoginPageTest.class);
 	
-	LoginPage obj;
+	LoginPage login;
 	@BeforeMethod
 	public void setup()
 	{
 		Initialization();
-		 obj = new LoginPage();
+		login = new LoginPage();
 		 log.info("browserLaunch");
 		 
 	}
@@ -33,7 +33,7 @@ public class LoginPageTest extends TestBase {
 	public void loginTest() throws InterruptedException 
 	{
 
-		obj.loginML(prop.getProperty("username"), prop.getProperty("password"));
+		login.loginML(prop.getProperty("username"), prop.getProperty("password"));
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.titleContains("test_1 - Market Lancing"));
 

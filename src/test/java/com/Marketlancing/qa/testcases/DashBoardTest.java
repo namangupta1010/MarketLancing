@@ -6,50 +6,43 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.Marketlancing.qa.base.TestBase;
-import com.Marketlanicng.qa.pages.HomePage;
+import com.Marketlanicng.qa.pages.DashBoard;
 import com.Marketlanicng.qa.pages.LoginPage;
 
-public class HomePageTest extends TestBase 
-{
-	LoginPage login;
-	HomePage homepage;
+public class DashBoardTest extends TestBase  {
 
+	DashBoard dashboard;
+	
+	LoginPage login;
+	
+	
+	
 	@BeforeMethod
 	public void setup() throws InterruptedException
 	{
 		Initialization();
+		dashboard = new DashBoard();
 		login = new LoginPage();
 		login.loginML(prop.getProperty("username"), prop.getProperty("password"));
-		driver.navigate().to(prop.getProperty("Url"));
-		homepage = new HomePage();
-
 	}
 
 
 	@Test
-	public void SearchBoxTest() throws InterruptedException 
+	public void GetBioTest() throws InterruptedException 
 	{
-
-		homepage.Searchjob(prop.getProperty("search_name"));
-		System.out.println(driver.getTitle());
-		Assert.assertEquals("You searched for testing class - Market Lancing", driver.getTitle());
-
+		dashboard.GetBio();
 	}
 
 	@Test
-	public void All_LinksTest() throws InterruptedException 
+	public void GetemailTest()  
 	{
-
-		homepage.AllLinks();
-
+		String email =dashboard.Getemail();
+		Assert.assertEquals( email,"namangupta1010@gmail.com");
 	}
-
-
+	
 	@AfterMethod
 	public void tearDown()
 	{
 		driver.close();
 	}
-
-
 }
