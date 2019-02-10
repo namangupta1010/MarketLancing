@@ -7,15 +7,16 @@
 
 
 <listeners>
-<listener class-name= "com.qa.extentreportListener.ExtentReporterNG"/>
+<listener class-name= "com.qa.Listener.ExtentReporterNG"/>
 </listeners>
 
 <test name="marketlancing Test">
 
-
 <classes>
  
  <class name="com.Marketlancing.qa.testcases.LoginPageTest"/>
+ <class name="com.Marketlancing.qa.testcases.HomePageTest"/>
+ <class name="com.Marketlancing.qa.testcases.DashBoardTest"/>
  
  </classes>
  </test>
