@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [marketlancing project for test automation]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [marketlancing project for test automation]" parallel="tests">
   <listeners>
-    <listener class-name="com.qa.Listener.ExtentReporterNG"/>
+    <listener class-name="com.qa.Listener.CustomListener"/>
   </listeners>
-  <test thread-count="5" name="marketlancing Test(failed)">
+  <test thread-count="5" name="marketlancing Test(failed)" parallel="tests">
     <classes>
       <class name="com.Marketlancing.qa.testcases.LoginPageTest">
         <methods>
+          <include name="MarketLancingLogin" invocation-numbers="2 3"/>
           <include name="loginTest"/>
           <include name="tearDown"/>
           <include name="setup"/>

@@ -1,34 +1,61 @@
 package com.Marketlancing.qa.testcases;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Marketlancing.qa.base.TestBase;
+import com.Marketlancing.qa.util.TestUtil;
 import com.Marketlanicng.qa.pages.LoginPage;
-import com.qa.Listener.CustomListener;
 
-@Listeners(CustomListener.class)
+
 public class LoginPageTest extends TestBase {
-	
+
 	Logger log =Logger.getLogger(LoginPageTest.class);
-	
+
 	LoginPage login;
 	@BeforeMethod
 	public void setup()
 	{
 		Initialization();
 		login = new LoginPage();
-		 log.info("browserLaunch");
-		 
+
+		log.info("browserLaunch");
+
 	}
-	
-	
+
+
+	@Test(dataProvider="MarketLancing Login Data")
+	public void MarketLancingLogin(String UN, String PW) throws InterruptedException
+	{
+		login.loginML(UN, PW);
+		String Username =driver.findElement(By.xpath("//h4[@class='float-center']")).getText();
+		Assert.assertTrue(UN.equalsIgnoreCase(Username),"Invalid Login Credentials");
+	} 
+
+	@DataProvider(name ="MarketLancing Login Data")
+	public Object[][] testData() throws IOException 
+	{
+
+		//System.out.println(prop.getProperty("username"));
+		TestUtil obj = new TestUtil();
+		Object data[][]=obj.Generic_dataDriven("Sheet1");
+		return data;
+	}
+
+
+
+
+
 	@Test
 	public void loginTest() throws InterruptedException 
 	{
@@ -39,10 +66,10 @@ public class LoginPageTest extends TestBase {
 
 		Assert.assertEquals("test_1 - Market Lancing", driver.getTitle());
 		log.info("testCase");
-		
+
 	}
-	
-	
+
+
 	@AfterMethod
 	public void tearDown()
 	{

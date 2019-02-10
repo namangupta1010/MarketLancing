@@ -169,3 +169,61 @@
 2019-02-10 12:13:31,994 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2019-02-10 12:13:31,995 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
 2019-02-10 12:30:39,837  INFO [main] LoginPageTest:27 - browserLaunch
+2019-02-10 18:50:31,196  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-10 18:56:11,274  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-10 18:56:29,264  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-10 18:56:55,900  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-10 18:57:24,976  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-10 18:57:41,637  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-10 19:05:55,468  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 19:15:23,449  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:15:55,087  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:16:19,409  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:16:50,977  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:17:20,400  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:22:18,632  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:22:41,779  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:23:32,817  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:29:27,183  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:29:52,003  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:30:15,155  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:31:27,588  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:31:50,689  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:32:14,879  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:32:42,566  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:33:09,239  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:47:22,791  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:47:49,236  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:48:25,522  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:48:53,219  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 19:49:21,874  INFO [main] LoginPageTest:35 - browserLaunch
+2019-02-10 20:54:18,318  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 20:55:00,355  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 20:55:26,821  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 20:55:56,526  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 20:56:23,197  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 20:58:37,471 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-10 20:58:37,474 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-10 20:58:37,476 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-10 20:58:37,478 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-10 20:58:37,479 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-10 20:58:38,226 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-10 20:58:38,227 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-10 20:58:38,229 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-10 20:58:38,230 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-10 20:58:38,231 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-10 21:53:02,409  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 21:53:35,355  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 21:54:07,444  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 21:54:38,560  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 21:55:11,263  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-10 22:26:17,371  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:26:47,920  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:28:42,663  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:29:17,010  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:29:51,502  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:31:40,041  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:32:13,261  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:32:36,698  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:33:07,754  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-10 22:33:36,423  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch

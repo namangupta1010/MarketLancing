@@ -3,6 +3,7 @@ package com.Marketlancing.qa.base;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.security.Timestamp;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -58,7 +59,7 @@ public class TestBase
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\src\\main\\resources\\FailedScreenshots\\"
-					+ TestMethodName + ".jpg"));
+					+ TestMethodName + System.currentTimeMillis() + ".jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

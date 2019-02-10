@@ -2,8 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 
-<suite name ="marketlancing project for test automation">
+<suite name ="marketlancing project for test automation" parallel="tests">
 
+<listeners>
+<listener class-name= "com.qa.Listener.CustomListener"/>
+</listeners>
 
 
 <listeners>
