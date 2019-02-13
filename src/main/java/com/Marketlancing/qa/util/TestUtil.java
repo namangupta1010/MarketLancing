@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class TestUtil {
 	XSSFWorkbook wb;
 	XSSFSheet sheet;
-	String FilePath ="C:\\Users\\HP\\git\\MarketLancing\\src\\main\\java\\com\\Marketlancing\\qa\\testData\\MarketLancing login data.xlsx";
+	String FilePath =System.getProperty("user.dir") + "\\src\\main\\java\\com\\Marketlancing\\qa\\testData\\MarketLancing login data.xlsx";
 
 	public Object[][] Generic_dataDriven(String WorkBook) throws IOException
 	{
