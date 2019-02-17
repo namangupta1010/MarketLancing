@@ -38,9 +38,26 @@ public class LoginPageTest extends TestBase {
 	public void MarketLancingLogin(String UN, String PW) throws InterruptedException
 	{
 		login.loginML(UN, PW);
-		String Username =driver.findElement(By.xpath("//h4[@class='float-center']")).getText();
-		Assert.assertTrue(UN.equalsIgnoreCase(Username),"Invalid Login Credentials");
-	} 
+		try{
+		
+		String Message =driver.findElement(By.xpath("//div[@class='toast-message']")).getText();
+		if(Message.equalsIgnoreCase("The login information you entered were incorrect. Please try again!"))
+		{
+		System.out.println("Inavalid crdentials");
+		}
+		else
+		{
+			String Username =driver.findElement(By.xpath("//h4[@class='float-center']")).getText();
+			Assert.assertTrue(UN.equalsIgnoreCase(Username));
+		}
+		
+	}
+	catch(Exception e)
+	{
+		
+	}
+	}
+	 
 
 	@DataProvider(name ="MarketLancing Login Data")
 	public Object[][] testData() throws IOException 
@@ -62,9 +79,9 @@ public class LoginPageTest extends TestBase {
 
 		login.loginML(prop.getProperty("username"), prop.getProperty("password"));
 		WebDriverWait wait = new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.titleContains("test_1 - Market Lancing"));
+		wait.until(ExpectedConditions.titleContains("TestingExpert - Market Lancing"));
 
-		Assert.assertEquals("test_1 - Market Lancing", driver.getTitle());
+		Assert.assertEquals("TestingExpert - Market Lancing", driver.getTitle());
 		log.info("testCase");
 
 	}

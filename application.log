@@ -344,3 +344,110 @@
 2019-02-13 16:23:10,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2019-02-13 16:23:10,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2019-02-13 16:23:10,863 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/webner/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 09:14:26,593  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:14:49,163  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:15:11,310  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:15:37,071  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:16:02,082  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:25:08,809  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 09:25:34,621  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 09:26:00,628  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 09:26:15,245 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 09:26:15,249 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 09:26:15,255 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 09:26:15,260 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 09:26:15,263 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 09:26:15,960 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 09:26:15,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 09:26:15,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 09:26:15,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 09:26:15,962 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 09:43:37,917  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:43:55,010  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:48:20,742  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:49:00,665  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:49:36,794  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:50:11,739  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 09:50:51,656  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:06:39,835  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:07:09,524  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:07:34,560  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:14:39,178  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:15:09,180  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:15:35,571  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:16:48,858  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:17:16,449  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:17:44,790  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:18:06,767  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:18:27,797  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:25:47,526  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:26:26,471  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:26:51,565  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:27:09,060  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:27:27,447  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:29:55,558  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:30:17,763  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:30:50,234  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:31:09,547  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:31:32,252  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:35:23,809  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:35:49,937  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:36:17,912  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:36:33,826  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:36:49,766  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 10:41:43,309  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-17 10:42:13,103  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-17 10:42:35,647  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-17 10:43:04,147  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-17 10:43:33,976  INFO [main] LoginPageTest:33 - browserLaunch
+2019-02-17 11:28:52,376  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 11:29:32,409  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 11:30:02,252  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 11:30:25,259  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 11:30:45,507  INFO [main] LoginPageTest:32 - browserLaunch
+2019-02-17 11:34:05,096  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:34:41,581  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:35:09,707  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:35:28,251  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:35:46,888  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:36:09,615 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 11:36:09,617 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 11:36:09,620 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 11:36:09,623 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 11:36:09,624 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 11:36:10,093 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 11:36:10,094 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 11:36:10,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 11:36:10,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 11:36:10,096 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 11:38:08,295  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:38:40,869  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:39:02,604  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:39:20,938  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:39:40,015  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:40:02,867 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 11:40:02,869 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 11:40:02,871 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 11:40:02,873 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 11:40:02,873 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 11:40:03,283 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 11:40:03,285 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 11:40:03,288 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 11:40:03,291 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 11:40:03,292 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 11:41:03,683  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:41:27,158  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:42:04,337  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:42:23,045  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:42:43,149  INFO [TestNG-tests-1] LoginPageTest:32 - browserLaunch
+2019-02-17 11:42:51,310  INFO [TestNG-tests-1] LoginPageTest:85 - testCase
+2019-02-17 11:44:49,691 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 11:44:49,692 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 11:44:49,694 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 11:44:49,695 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 11:44:49,696 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-02-17 11:44:50,126 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-02-17 11:44:50,127 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-02-17 11:44:50,128 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-02-17 11:44:50,128 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-02-17 11:44:50,129 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
