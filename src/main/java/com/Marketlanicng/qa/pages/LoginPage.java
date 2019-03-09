@@ -31,7 +31,7 @@ public class LoginPage extends TestBase {
 		//this all the elements with initialized with driver
 		
 		PageFactory.initElements(driver, this);
-		//hello world
+		
 	}
 	
 	public void loginML(String un,String pwd) throws InterruptedException
